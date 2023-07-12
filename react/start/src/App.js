@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   const handlenc = () =>{
-    const names = ["hari","john","kevin"];
+    const names = ["mkm","john","kevin"];
     const int = Math.floor(Math.random()*3)
-    return names[int]
+    return names[int];
   }
   return (
     <div className="App">
